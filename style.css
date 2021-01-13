@@ -5,12 +5,15 @@
 }
 
 body {
+ width: 100vw;
 }
 
 header {
   background-color: #d82134;
   width: 60%;
   color: white;
+  border-radius: 2px;
+  border-bottom-right-radius: 54px;
 }
 
 .navlist {
@@ -36,4 +39,19 @@ header {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+#about {
+  word-wrap: break-word;
+  padding-left: 50px;
+  padding-right: 150px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 670px) {
+  #about {
+    font-size: 8px;
+  }
 }
