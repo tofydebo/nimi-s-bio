@@ -27,6 +27,13 @@ header {
   color: white;
 }
 
+@media only screen and (max-width: 670px) {
+  .navitem {
+    font-size: 8px;
+    padding: 4px;
+  }
+}
+
 a {
   text-decoration: none;
 }
