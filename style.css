@@ -53,5 +53,9 @@ a {
 @media only screen and (max-width: 670px) {
   #about {
     font-size: 8px;
+    padding-left: 5%;
+    padding-right: 35%;
+    padding-top: 35%;
+    padding-bottom: 35%;
   }
 }
