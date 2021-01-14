@@ -64,9 +64,9 @@ li a {
   .one {
     font-size: 10px;
     padding-left: 13%;
-    padding-right: 35%;
-    padding-top: 35%;
-    padding-bottom: 35%;
+    padding-right: 25%;
+    padding-top: 25%;
+    padding-bottom: 25%;
   }
 }
 
@@ -78,7 +78,7 @@ li a {
   width: 40vh;
   overflow-x: hidden;
   padding: 5px;
-  height: 5.6cm;
+  height: 5cm;
   color: black;
 }
 
