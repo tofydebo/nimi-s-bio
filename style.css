@@ -5,7 +5,7 @@
 }
 
 body {
- width: 100vw;
+  width: 100vw;
 }
 
 header {
@@ -43,7 +43,7 @@ a {
   color: white;
 }
 
-#about {
+.one {
   word-wrap: break-word;
   padding-left: 50px;
   padding-right: 150px;
@@ -52,11 +52,33 @@ a {
 }
 
 @media only screen and (max-width: 670px) {
-  #about {
+  .one {
     font-size: 10px;
     padding-left: 13%;
     padding-right: 35%;
     padding-top: 35%;
     padding-bottom: 35%;
   }
+}
+
+#about {
+  background-color: white;
+  word-wrap: break-word;
+  text-align: justify;
+  width: 40%;
+  overflow-x: hidden;
+  padding: 5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding:
+  padding-left: 60%;
+}
+
+.flex-item {
+  padding: 10px;
 }
