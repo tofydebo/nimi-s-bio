@@ -105,6 +105,7 @@ li a {
   height: 7cm;
   width: 50%;
   word-wrap: break-word;
+overflow-x: hidden;
 }
 
 .go-to {
