@@ -84,7 +84,7 @@ li a {
 
 @media only screen and (max-width: 670px) {
   #about {
-    width: 50vh;
+    width: 50%;
   }
 }
 
@@ -124,28 +124,4 @@ button a {
   text-decoration: none;
 }
 
-}
-button span {
-  cursor: 
-  display: inline-block;
-  position: relative;
-  transition: 1s;
-}
 
-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 1s;
-}
-
-button:hover span {
-  padding-right: 25px;
-}
-
-button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
