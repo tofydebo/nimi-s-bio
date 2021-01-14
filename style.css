@@ -106,6 +106,12 @@ li a {
   width: 50%;
   word-wrap: break-word;
 overflow-x: hidden;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 13%;
+    padding-bottom: 25%;
+  }
+
 }
 
 .go-to {
