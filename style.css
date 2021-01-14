@@ -7,7 +7,6 @@
 body {
   width: 100vw;
 }
-
 @media only screen and (max-width: 670px) {
   body {
     font-size: 10px;
@@ -17,7 +16,6 @@ body {
     font-size: 12px;
   }
 }
-
 
 header {
   background-color: #d82134;
@@ -49,7 +47,7 @@ header {
   }
 }
 
-a {
+li a {
   text-decoration: none;
   color: white;
 }
@@ -73,28 +71,80 @@ a {
 }
 
 #about {
+  padding-left: 60%;
   background-color: white;
   word-wrap: break-word;
   text-align: justify;
   width: 40%;
   overflow-x: hidden;
   padding: 5px;
+  height: 5.6cm;
+  color: black;
 }
 
 @media only screen and (max-width: 670px) {
   #about {
-  width: 50%;
+    width: 50%;
   }
+}
 
 .flex-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
-  padding:
-  padding-left: 60%;
 }
 
 .flex-item {
   padding: 10px;
+}
+
+#blog {
+  background-color: #d82134;
+  color: white;
+  text-align: center;
+  height: 9cm;
+  width: 50%;
+  word-wrap: break-word;
+}
+
+.go-to {
+  background-color: white;
+  color: #d82134;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 5px 10px 8px #160103;
+  padding: 10px;
+  width: 4cm;
+  transition: all 0.5s;
+}
+
+button a {
+  color: #d82134;
+  text-decoration: none;
+}
+
+}
+button span {
+  cursor: 
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
