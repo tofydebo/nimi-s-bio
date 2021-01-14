@@ -102,7 +102,7 @@ li a {
   background-color: #d82134;
   color: white;
   text-align: center;
-  height: 9cm;
+  height: 6cm;
   width: 50%;
   word-wrap: break-word;
 }
@@ -128,7 +128,7 @@ button span {
   cursor: 
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 button span:after {
@@ -137,7 +137,7 @@ button span:after {
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 button:hover span {
