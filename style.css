@@ -19,11 +19,11 @@ body {
 
 header {
   background-color: #d82134;
-  width: 60%;
+  width: 60vw;
   color: white;
   border-radius: 2px;
   border-bottom-right-radius: 46px;
-  height: 60%;
+  height: 60vh;
 }
 
 .navlist {
@@ -75,7 +75,7 @@ li a {
   background-color: white;
   word-wrap: break-word;
   text-align: justify;
-  width: 40%;
+  width: 40vw;
   overflow-x: hidden;
   padding: 5px;
   height: 5.6cm;
@@ -84,7 +84,7 @@ li a {
 
 @media only screen and (max-width: 670px) {
   #about {
-    width: 50%;
+    width: 50vw;
   }
 }
 
@@ -102,8 +102,8 @@ li a {
   background-color: #d82134;
   color: white;
   text-align: center;
-  height: 6cm;
-  width: 50%;
+  height: 30vw;
+  width: 50vw;
   word-wrap: break-word;
 }
 
