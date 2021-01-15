@@ -72,8 +72,6 @@ li a {
   }
 }
 
-
-
 .overlay {
   position: absolute;
   top: 14%;
@@ -85,7 +83,6 @@ li a {
 @media only screen and (max-width: 670px) {
   .overlay {
     top: 8%;
-
     left: 50%;
     right: 20%;
   }
@@ -102,6 +99,15 @@ li a {
   left: 96%;
   color: #d82134;
   writing-mode: vertical-lr;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 670px) {
+  .icons {
+    top: 9%;
+    left: 93%;
+    right: 3%;
+  }
 }
 
 .icons a {
