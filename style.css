@@ -6,6 +6,7 @@
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 @media only screen and (max-width: 670px) {
   body {
@@ -78,7 +79,7 @@ li a {
   width: 40%;
   overflow-x: hidden;
   padding: 5px;
-  height: 4.9cm;
+  height: 5.6cm;
   color: black;
 }
 
@@ -102,15 +103,15 @@ li a {
   background-color: #d82134;
   color: white;
   text-align: center;
-  height: 7cm;
+  height: ;
   width: 50%;
   word-wrap: break-word;
-overflow-x: hidden;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
+  overflow-x: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
 
 .go-to {
   background-color: white;
@@ -120,11 +121,20 @@ overflow-x: hidden;
   box-shadow: 5px 10px 8px #160103;
   padding: 10px;
   width: 4cm;
-  }
+}
 
 button a {
   color: #d82134;
   text-decoration: none;
 }
 
+#podcast {
+  background-color: white;
+  overflow-x: hidden;
+  color: #d82134;
+  padding: 20px;
+}
 
+#podcast div {
+  padding: 15px;
+}
