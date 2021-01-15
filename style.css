@@ -59,6 +59,17 @@ li a {
   padding-right: 150px;
   padding-top: 100px;
   padding-bottom: 150px;
+ position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 50%;
+  right: 20%;
+  height:
+  width:
 }
 
 @media only screen and (max-width: 670px) {
