@@ -138,3 +138,27 @@ button a {
 #podcast div {
   padding: 15px;
 }
+
+footer {
+  background-color: #d82134;
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+  word-wrap: break-word;
+
+  height: 40%;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 5%;
+}
+
+.mail {
+  background-color: white;
+  color: #d82134;
+  border-radius: 16px;
+  border: none;
+  /* box-shadow: 5px 10px 8px #160103;*/
+  padding: 5px;
+  width: 4.7cm;
+}
+
