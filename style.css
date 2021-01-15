@@ -68,8 +68,7 @@ li a {
   bottom: 10%;
   left: 50%;
   right: 20%;
-  height:
-  width:
+  border: 5px solid white;
 }
 
 @media only screen and (max-width: 670px) {
