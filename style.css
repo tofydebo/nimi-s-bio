@@ -79,7 +79,7 @@ li a {
   width: 40%;
   overflow-x: hidden;
   padding: 5px;
-  height: ;
+  height: 5.3cm;
   color: black;
 }
 
@@ -104,11 +104,11 @@ li a {
   color: white;
   text-align: center;
   height: ;
-  width: 50%;
+  width: 40%;
   word-wrap: break-word;
   overflow-x: hidden;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 50px;
 }
