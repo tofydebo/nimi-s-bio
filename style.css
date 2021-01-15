@@ -79,7 +79,7 @@ li a {
   width: 40%;
   overflow-x: hidden;
   padding: 5px;
-  height: 5.6cm;
+  height: ;
   color: black;
 }
 
@@ -110,7 +110,7 @@ li a {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .go-to {
@@ -118,9 +118,9 @@ li a {
   color: #d82134;
   border-radius: 16px;
   border: none;
-  box-shadow: 5px 10px 8px #160103;
+ /* box-shadow: 5px 10px 8px #160103;*/
   padding: 10px;
-  width: 4cm;
+  width: 3cm;
 }
 
 button a {
