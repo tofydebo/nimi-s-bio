@@ -69,6 +69,16 @@ li a {
   left: 50%;
   right: 20%;
 }
+
+@media only screen and (max-width: 670px) {
+  .overlay {
+    top: 6%;
+
+    left: 50%;
+    right: 20%;
+  }
+}
+
 .overlay img {
   border: 4px solid white;
 }
