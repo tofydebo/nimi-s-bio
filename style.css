@@ -99,12 +99,12 @@ li a {
   left: 96%;
   color: #d82134;
   writing-mode: vertical-lr;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 @media only screen and (max-width: 670px) {
   .icons {
-    top: 9%;
+    top: 13%;
     left: 93%;
     right: 3%;
   }
