@@ -7,8 +7,15 @@
 body {
   width: 100vw;
   overflow-x: hidden;
+  font-family: "Roboto";
 }
-@media only screen and (max-width: 670px) {
+
+h2 {
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
   body {
     font-size: 10px;
   }
@@ -37,14 +44,13 @@ header {
 }
 
 .navitem {
-  padding: 10px;
+  padding: 4px;
   color: white;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (min-width: 768px) {
   .navitem {
-    font-size: 10px;
-    padding: 4px;
+    padding: 10px;
   }
 }
 
@@ -55,34 +61,34 @@ li a {
 
 .one {
   word-wrap: break-word;
-  padding-left: 50px;
-  padding-right: 150px;
-  padding-top: 100px;
-  padding-bottom: 150px;
- position: relative;
+  font-size: 10px;
+  padding-left: 13%;
+  padding-right: 25%;
+  padding-top: 25%;
+  padding-bottom: 35%;
+  position: relative;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (min-width: 768px) {
   .one {
-    font-size: 10px;
-    padding-left: 13%;
-    padding-right: 25%;
-    padding-top: 25%;
-    padding-bottom: 35%;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 150px;
   }
 }
 
 .overlay {
   position: absolute;
-  top: 14%;
-  bottom: 10%;
+  top: 6%;
   left: 50%;
   right: 20%;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (min-width: 768px) {
   .overlay {
-    top: 8%;
+    top: 14%;
+    bottom: 10%;
     left: 50%;
     right: 20%;
   }
@@ -95,18 +101,19 @@ li a {
 .icons {
   padding: 5px;
   position: absolute;
-  top: 24%;
-  left: 96%;
-  color: #d82134;
+  top: 9%;
+  left: 87%;
+  right: 3%;
+  color: black;
   writing-mode: vertical-lr;
-  font-size: 13px;
+  font-size: 14px;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (min-width: 768px) {
   .icons {
-    top: 13%;
-    left: 93%;
-    right: 3%;
+    top: 24%;
+    left: 96%;
+    right: 5%;
   }
 }
 
@@ -126,11 +133,17 @@ li a {
   color: black;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (min-width: 670px) {
+  #about {
+    height: 5.7cm;
+  }
+}
+
+/*@media only screen and (min-width: 670px) {
   #about {
     width: 50%;
   }
-}
+}*/
 
 .flex-container {
   display: flex;
@@ -146,7 +159,6 @@ li a {
   background-color: #d82134;
   color: white;
   text-align: center;
-  height: ;
   width: 40%;
   word-wrap: break-word;
   overflow-x: hidden;
@@ -156,14 +168,26 @@ li a {
   padding-bottom: 50px;
 }
 
+@media only screen and (min-width: 670px) {
+  #blog {
+    width: 50%;
+  }
+}
+
 .go-to {
   background-color: white;
   color: #d82134;
   border-radius: 16px;
   border: none;
- /* box-shadow: 5px 10px 8px #160103;*/
+  /* box-shadow: 5px 10px 8px #160103;*/
   padding: 5px;
-  width: 3cm;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+  .go-to {
+    width: 3cm;
+  }
 }
 
 button a {
@@ -202,6 +226,5 @@ footer {
   border: none;
   /* box-shadow: 5px 10px 8px #160103;*/
   padding: 5px;
-  width: 4.5cm;
+  font-weight: bold;
 }
-
