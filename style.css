@@ -21,7 +21,7 @@ h2 {
   }
 
   h2 {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -106,7 +106,7 @@ li a {
   right: 3%;
   color: black;
   writing-mode: vertical-lr;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -114,6 +114,7 @@ li a {
     top: 24%;
     left: 96%;
     right: 5%;
+    font-size: 14px;
   }
 }
 
@@ -126,10 +127,10 @@ li a {
   background-color: white;
   word-wrap: break-word;
   text-align: justify;
-  width: 40%;
+  width: 60%;
   overflow-x: hidden;
   padding: 5px;
-  height: 4.8cm;
+  height: 5cm;
   color: black;
 }
 
@@ -159,7 +160,7 @@ li a {
   background-color: #d82134;
   color: white;
   text-align: center;
-  width: 40%;
+  width: 50%;
   word-wrap: break-word;
   overflow-x: hidden;
   padding-left: 20px;
@@ -212,11 +213,10 @@ footer {
   text-align: center;
   overflow-x: hidden;
   word-wrap: break-word;
-
-  height: 40%;
+ height: 50%;
   padding-right: 15%;
   padding-left: 15%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
 }
 
 .mail {
