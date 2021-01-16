@@ -176,17 +176,16 @@ li a {
   padding-right: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 6.5cm;
- 
-}
+ }
 
-@media only screen and (min-width: 670px) {
+@media only screen and (max-width: 670px) {
   #blog {
-    width: 50%; 
+    width: 8cm; 
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
+height: 7cm
 
   }
 }
@@ -199,10 +198,12 @@ li a {
   flex: 1;
 }
 
+@media only screen and (max-width: 670px) {
 .flex-item2 img {
- height: 6.5cm;
+ height: 7cm;
+ width: 8cm
 }
-
+}
 .go-to {
   background-color: white;
   color: #d82134;
