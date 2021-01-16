@@ -80,15 +80,15 @@ li a {
 
 .overlay {
   position: absolute;
-  top: 6%;
+  top: 12%;
   left: 50%;
   right: 20%;
-  bottom: 20%;
+  bottom: 12%;
 }
 
 @media only screen and (min-width: 768px) {
   .overlay {
-    top: 14%;
+    top: 2%;
     bottom: 10%;
     left: 50%;
     right: 20%;
