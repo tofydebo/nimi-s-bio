@@ -176,11 +176,18 @@ li a {
   padding-right: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
+height: 5cm;
+ 
 }
 
 @media only screen and (min-width: 670px) {
   #blog {
-    width: 50%;
+    width: 50%; 
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   }
 }
 
@@ -190,6 +197,10 @@ li a {
 
 .flex-item2 {
   flex: 1;
+}
+
+.flex-item2 {
+Height: 5cm;
 }
 
 .go-to {
