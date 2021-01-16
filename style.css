@@ -176,7 +176,7 @@ li a {
   padding-right: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-height: 5cm;
+  height: 6.5cm;
  
 }
 
@@ -199,8 +199,8 @@ height: 5cm;
   flex: 1;
 }
 
-.flex-item2 {
-Height: 5cm;
+.flex-item2 img {
+ height: 6.5cm;
 }
 
 .go-to {
