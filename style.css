@@ -83,6 +83,7 @@ li a {
   top: 6%;
   left: 50%;
   right: 20%;
+  bottom: 20%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -96,6 +97,7 @@ li a {
 
 .overlay img {
   border: 4px solid white;
+  height: auto;
 }
 
 .icons {
