@@ -81,7 +81,7 @@ li a {
 .overlay {
   position: absolute;
   top: 6%;
-  left: 50%;
+  left: 40%;
   right: 20%;
   bottom: 6%;
 }
@@ -89,7 +89,7 @@ li a {
 @media only screen and (min-width: 768px) {
   .overlay {
     top: 50px;
-    left: 50%;
+    left: 40%;
     right: 20%;
     bottom: 50px;
   }
@@ -98,16 +98,15 @@ li a {
 .overlay img {
   border: 4px solid white;
   height: 5cm;
-  width: 5cm;
+  width: 4.5cm;
 }
 
 @media only screen and (min-width: 768px) {
   .overlay img {
     height: 7cm;
-    width: 7cm;
+    width: 9cm;
   }
 }
-
 .icons {
   padding: 5px;
   position: absolute;
