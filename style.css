@@ -173,16 +173,24 @@ li a {
   width: 50%;
   word-wrap: break-word;
   overflow-x: hidden;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 670px) {
   #blog {
     width: 50%;
   }
+}
+
+.flex-container2 {
+  display: flex;
+}
+
+.flex-item2 {
+  flex: 1;
 }
 
 .go-to {
@@ -223,7 +231,7 @@ footer {
   text-align: center;
   overflow-x: hidden;
   word-wrap: break-word;
- height: 50%;
+  height: 50%;
   padding-right: 15%;
   padding-left: 15%;
   padding-bottom: 8%;
