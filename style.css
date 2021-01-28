@@ -301,12 +301,12 @@ footer {
 
 @media only screen and (max-width: 600px) {
 #half-box1 {
-top: 41px;
-right: 27px;
+top: 47px;
+right: 28px;
 }
 
 #half-box2 {
-top: 232px;
-right: 27px;
+top: 212px;
+right: 28px;
 }
 }
