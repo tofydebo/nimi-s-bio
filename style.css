@@ -265,7 +265,7 @@ footer {
 }
 
 #blogbox {
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   margin: 0;
@@ -275,14 +275,14 @@ footer {
 
 #blogbox2 {
   float: right;
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   margin-right: 17px;
 }
 
 #blogbox3 {
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   margin-bottom: -4px;
