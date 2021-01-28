@@ -265,7 +265,7 @@ footer {
 }
 
 #blogbox {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   margin: 0;
@@ -275,14 +275,14 @@ footer {
 
 #blogbox2 {
   float: right;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   margin-right: 17px;
 }
 
 #blogbox3 {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   margin-bottom: -4px;
@@ -299,7 +299,7 @@ footer {
   right: 227px;
 }
 
-media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 #half-box1 {
 top: 39px;
 right: 25px;
