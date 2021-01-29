@@ -203,7 +203,7 @@ li a:hover {
   .flex-item2 img {
     height: 6cm;
 margin-right: -20px;
-object-fit: contain;
+object-fit: cover;
 
   }
 }
