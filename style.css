@@ -316,12 +316,12 @@ right: 30px;
 
 media only screen and (orientation:landscape)and (max-width: 600px) {
 #half-box1 {
-top: 42px;
+top: 40px;
 right: 21px;
 }
 
 #half-box2 {
-top: 150px;
+top: 100px;
 right: 21px;
 }
 }
