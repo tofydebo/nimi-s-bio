@@ -197,13 +197,13 @@ li a:hover {
 
 .flex-item2 {
   flex: 1;
-object-fit: contain;
 }
 
 @media only screen and (max-width: 670px) {
   .flex-item2 img {
     height: 6cm;
-margin-right: -10px;
+margin-right: -20px;
+object-fit: contain;
 
   }
 }
