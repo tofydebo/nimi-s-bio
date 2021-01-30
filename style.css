@@ -384,3 +384,28 @@ footer {
   top: 279px;
   right: 227px;
 }
+
+
+@media only screen and (max-width: 600px) {
+#half-box1 {
+top: 46px;
+right: 30px;
+}
+
+#half-box2 {
+top: 190px;
+right: 30px;
+}
+}
+
+media only screen and (orientation:landscape)and (max-width: 600px) {
+#half-box1 {
+top: 40px;
+right: 21px;
+}
+
+#half-box2 {
+top: 100px;
+right: 21px;
+}
+}
