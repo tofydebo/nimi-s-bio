@@ -114,6 +114,16 @@ li a:hover {
   left: 42%;
   right: 22%;
   bottom: 5%;
+  animation: twirl 3s linear 0.2s forwards infinite;
+}
+
+@keyframes twirl {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(90deg);
+  }
 }
 
 @media only screen and (min-width: 768px) {
