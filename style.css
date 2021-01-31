@@ -416,16 +416,16 @@ footer {
 }
 }
 
-@media only screen and (orientation:landscape) {
+@media only screen and (orientation:landscape) and (min-width: 1000px) {
 #half-box1 {
    position: absolute;
-   top: 8%;
-   right: 35%;
+   top: 10%;
+   right: 31%;
 }
 
 #half-box2 {
    position: absolute;
-   top: 45%;
-   right: 35%;
+   top: 48%;
+   right: 31%;
 }
 }
