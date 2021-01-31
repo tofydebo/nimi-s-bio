@@ -390,8 +390,25 @@ footer {
   bottom: 0;
   margin-bottom: -4px;
 }
-#half-box1 {
-  position: absolute;
+
+
+//iphone 7 only
+  #half-box1 {
+top: 46px;
+right: 26px;
+}
+
+#half-box2 {
+top: 193px;
+right: 26px;
+}
+}
+
+
+  
+@media only screen and (min-width: 800px) {
+ #half-box1 {
+   position: absolute;
   top: 38px;
   right: 227px;
 }
@@ -401,28 +418,16 @@ footer {
   top: 279px;
   right: 227px;
 }
-
-
-@media only screen and (max-width: 600px) {
-#half-box1 {
-top: 46px;
-right: 30px;
-}
-
-#half-box2 {
-top: 190px;
-right: 30px;
-}
 }
 
 media only screen and (orientation:landscape)and (max-width: 600px) {
 #half-box1 {
-top: 40px;
-right: 21px;
+top: 33px;
+right: 11px;
 }
 
 #half-box2 {
-top: 100px;
-right: 21px;
+top: 80px;
+right: 11px;
 }
 }
