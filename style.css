@@ -422,14 +422,16 @@ right: 26px;
 }
 }
 
-media only screen and (orientation:landscape)and (max-width: 600px) {
+media only screen and (orientation:landscape) {
 #half-box1 {
-top: 33px;
-right: 11px;
+   position: absolute;
+top: 8%;
+right: 35%;
 }
 
 #half-box2 {
-top: 80px;
-right: 11px;
+   position: absolute;
+top: 45%;
+right: 35%;
 }
 }
