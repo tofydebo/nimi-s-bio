@@ -394,19 +394,21 @@ footer {
 
 //iphone 7 only
   #half-box1 {
-top: 46px;
+position: absolute;
+    top: 46px;
 right: 26px;
 }
 
 #half-box2 {
+  position: absolute;
 top: 193px;
 right: 26px;
 }
-}
+
 
 
   
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 810px) {
  #half-box1 {
    position: absolute;
   top: 38px;
