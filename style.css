@@ -55,7 +55,7 @@ header {
 
  @media only screen and (max-width:500px) {
   li{
- border-bottom: 2px solid white;
+ border-bottom: 2px solid hsl(0, 79%, 53%);
 }
    }
 
@@ -134,7 +134,7 @@ li a:hover {
 
 @media only screen and (min-width: 768px) {
   .overlay {
-    top: 50px;
+    top: 80px;
     left: 40%;
     right: 20%;
     bottom: 50px;
@@ -154,10 +154,10 @@ li a:hover {
   }
 }
 .icons {
-  padding: 5px;
+  padding: 2px;
   position: absolute;
-  top: 14%;
-  left: 93%;
+  top: 35%;
+  left: 94%;
   right: 2%;
   color: black;
   writing-mode: vertical-lr;
