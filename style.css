@@ -156,7 +156,7 @@ li a:hover {
 .icons {
   padding: 2px;
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 94%;
   right: 2%;
   color: black;
@@ -168,7 +168,7 @@ li a:hover {
   .icons {
     top: 24%;
     left: 96%;
-    right: 5%;
+    right: 3%;
     font-size: 14px;
   }
 }
@@ -390,27 +390,21 @@ footer {
   bottom: 0;
   margin-bottom: -4px;
 }
-
-
-//iphone 7 only
   #half-box1 {
-position: absolute;
+    position: absolute;
     top: 46px;
-right: 26px;
+    right: 26px;
 }
 
 #half-box2 {
   position: absolute;
-top: 193px;
-right: 26px;
+  top: 193px;
+  right: 26px;
 }
 
-
-
-  
 @media only screen and (min-width: 810px) {
  #half-box1 {
-   position: absolute;
+  position: absolute;
   top: 38px;
   right: 227px;
 }
@@ -422,16 +416,16 @@ right: 26px;
 }
 }
 
-media only screen and (orientation:landscape) {
+@media only screen and (orientation:landscape) {
 #half-box1 {
    position: absolute;
-top: 8%;
-right: 35%;
+   top: 8%;
+   right: 35%;
 }
 
 #half-box2 {
    position: absolute;
-top: 45%;
-right: 35%;
+   top: 45%;
+   right: 35%;
 }
 }
