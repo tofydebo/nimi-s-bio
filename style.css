@@ -416,7 +416,7 @@ footer {
 }
 }
 
- media only screen and (orientation:landscape) {
+ @media only screen and (orientation:landscape) {
 #half-box1 {
    position: absolute;
    top: 7%;
