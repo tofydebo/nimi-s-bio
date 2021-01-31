@@ -447,13 +447,13 @@ footer {
 @media only screen and (min-width: 700px) and (max-width: 801px) {
 #half-box1 {
    position: absolute;
-   top: 7%;
-   right: 26%;
+   top: 6.2%;
+   right: 22%;
 }
 
 #half-box2 {
    position: absolute;
-   top: 39%;
-   right: 26%;
+   top: 33%;
+   right: 22%;
 }
 }
