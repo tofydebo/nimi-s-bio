@@ -420,21 +420,6 @@ footer {
 #half-box1 {
    position: absolute;
    top: 7%;
-   right: 32%;
-}
-
-#half-box2 {
-   position: absolute;
-   top: 48%;
-   right: 31%;
-}
-}
-
-
-@media only screen and (orientation:landscape) and (min-width: 1000px) {
-#half-box1 {
-   position: absolute;
-   top: 9.2%;
    right: 30%;
 }
 
@@ -442,5 +427,20 @@ footer {
    position: absolute;
    top: 49%;
    right: 30%;
+}
+}
+
+
+@media only screen and (orientation:landscape) and (min-width: 800px) {
+#half-box1 {
+   position: absolute;
+   top: 9.5%;
+   right: 31%;
+}
+
+#half-box2 {
+   position: absolute;
+   top: 49%;
+   right: 31%;
 }
 }
