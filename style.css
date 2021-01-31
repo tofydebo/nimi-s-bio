@@ -434,13 +434,13 @@ footer {
 @media only screen and (orientation:landscape) and (min-width: 1000px) {
 #half-box1 {
    position: absolute;
-   top: 10%;
-   right: 31%;
+   top: 9.2%;
+   right: 30%;
 }
 
 #half-box2 {
    position: absolute;
-   top: 48%;
-   right: 31%;
+   top: 49%;
+   right: 30%;
 }
 }
