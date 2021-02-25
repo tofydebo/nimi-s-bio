@@ -347,7 +347,7 @@ footer {
   transition: background-color 0.3s linear;
   animation: mail 2.5s 0.3s;
   animation-fill-mode: backwards;
-  animation-iteration-count: 10;
+  animation-iteration-count: 5;
 }
 
 @keyframes mail {
