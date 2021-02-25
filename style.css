@@ -120,7 +120,7 @@ li a:hover {
   left: 42%;
   right: 22%;
   bottom: 5%;
-  animation: twirl 3s linear 0.2s forwards infinite;
+  animation: twirl 3s linear 0.2s forwards 2;
 }
 
 @keyframes twirl {
